@@ -12,11 +12,13 @@ body {
 }
 
 .container {
-  width: 500px;
+  width: 1000px;
+  height: 400px;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+
 }
 
 h2 {
@@ -52,6 +54,14 @@ button:hover {
 
 .section {
   margin-top: 15px;
+ width: 300px;
+
+}
+.section1{
+  display: flex;
+  justify-content: space-around;
+
+
 }
 
 .section h3 {
@@ -62,7 +72,7 @@ ul {
   background: #f7f9fd;
   padding: 10px;
   border-radius: 8px;
-  min-height: 80px;
+  height: 200px;
   list-style: none;
 }
 
